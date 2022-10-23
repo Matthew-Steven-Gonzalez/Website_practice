@@ -1,0 +1,12 @@
+nav{
+    background-color: darkslateblue;
+    float: inside;
+}
+div{
+    border: dotted black 3px;
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
