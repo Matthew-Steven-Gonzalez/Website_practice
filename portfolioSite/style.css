@@ -32,7 +32,7 @@ h1{
     text-decoration: underline;
 }
 
-#home{
+#home {
     margin-top: 4%;
     margin-bottom: 4%;
     display: flex;
@@ -40,14 +40,27 @@ h1{
     text-align: center;
 }
 
-#homeTxt , #aboutMe  {
+#homeTxt  {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-#homeImage img, #aboutMeImage img {
+#homeImage img {
     padding-left: 8%;
     max-height: 450px;
     float: inline-end;
+}
+
+#aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutMeImage img {
+    padding-left: 8%;
+    max-height: 450px;
+    float: inline-start; 
 }
