@@ -33,17 +33,20 @@ h1{
 }
 
 #home{
-    margin-top: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 
-#home p {
+#homeTxt , #aboutMe  {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-#homeImage img {
+#homeImage img, #aboutMeImage img {
     padding-left: 8%;
     max-height: 450px;
     float: inline-end;
